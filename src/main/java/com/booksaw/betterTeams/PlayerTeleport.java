@@ -78,7 +78,7 @@ public class PlayerTeleport {
 			return;
 		}
 
-		player.teleport(location);
+		player.teleportAsync(location);
 		MessageManager.sendMessage(player, reference);
 	}
 
